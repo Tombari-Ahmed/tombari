@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +31,7 @@
                 else
                 {
                     echo '  <li class="nav-item"><a href="logindesign.php" class="btn btn-outline-light">Login</a></li>
-                    <li class="nav-item"><a href="signupdesign.php" class="btn btn-outline-light ml-3">Sign Up</a></li>';
+                    <li class="nav-item"><a href="signup.php" class="btn btn-outline-light ml-3">Sign Up</a></li>';
                 }
 
                 ?>
